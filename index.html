@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver & Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sudoku Solver & Checker</h1>
+        <header>
+            <h2 class="mode-title">Switch to Dark Mode</h2>
+            <div class="mode-toggle">
+                <label>
+                    <input type="checkbox" id="modeSwitch">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </header>
+        <div class="grid" id="sudokuGrid"></div>
+        <div class="buttons">
+            <button id="solveButton">Solve</button>
+            <button id="resetButton">Reset</button>
+            <button id="checkButton">Check</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
